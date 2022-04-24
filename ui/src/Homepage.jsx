@@ -27,7 +27,11 @@ const HomePage = () => (
   <div>
     <NavBar />
     <Grid fluid>
-      <RouteList />
+        <div style={{display:'flex', justifyContent:'center'}}>
+            <div className="list-container">
+                <RouteList />
+            </div>
+        </div>
     </Grid>
   </div>
 );

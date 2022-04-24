@@ -32,7 +32,6 @@ export default class TextInput extends React.Component {
     return React.createElement(tag, {
       ...props,
       value,
-      className: 'add-product-form-input',
       onBlur: this.onBlur,
       onChange: this.onChange,
     });

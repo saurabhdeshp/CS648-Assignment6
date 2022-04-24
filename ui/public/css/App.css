@@ -1,7 +1,4 @@
 body{
-    padding: 0 20px;
-
-    max-width: 60%;
     display: flex;
     align-self: center;
     flex-direction: column;
@@ -30,12 +27,19 @@ table.bordered-table {
 }
 .product-form label{
     margin-bottom: 10px;
+    color: black;
 }
 .product-form select,
 .product-form input{
     width: 300px;
+    padding: 5px;
 }
 
 .submit-btn {
     margin-top: 10px;
+}
+
+.list-container{
+    max-width: 60%;
+    min-width: 600px;
 }

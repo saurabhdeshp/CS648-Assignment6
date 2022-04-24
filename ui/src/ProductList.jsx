@@ -84,7 +84,7 @@ export default class ProductList extends React.Component {
     const { products, initialLoading } = this.state;
     return (
       <React.Fragment>
-        <div className="root-container">
+
           <h2>My Company Inventory</h2>
           <div>Showing all available products</div>
           <hr />
@@ -103,7 +103,6 @@ export default class ProductList extends React.Component {
               <AddProduct addProduct={this.addProduct} />
             </Panel.Body>
           </Panel>
-        </div>
       </React.Fragment>
     );
   }
