@@ -7,7 +7,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import RouteList from './RouteList.jsx';
 
 const NavBar = () => (
-  <Navbar bsStyle="inverse" style={{ borderRadius: 0 }}>
+  <Navbar style={{ borderRadius: 0}}>
     <Navbar.Header>
       <Navbar.Brand>My Company Inventory</Navbar.Brand>
     </Navbar.Header>

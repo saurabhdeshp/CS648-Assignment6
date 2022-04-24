@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from "react-bootstrap";
 
 export default class ProductAdd extends React.Component {
   constructor() {
@@ -77,7 +78,7 @@ export default class ProductAdd extends React.Component {
           </label>
         </div>
 
-        <button type="submit" className="submit-btn" >Add Product</button>
+        <Button bsStyle="primary" type="submit">Add Product</Button>
       </form>
     );
   }
