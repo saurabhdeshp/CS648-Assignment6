@@ -1,0 +1,7 @@
+node_modules
+.idea
+*.iml
+ui/public/app.bundle.js
+ui/public/vendor.bundle.js
+ui/public/app.bundle.js.map
+ui/public/vendor.bundle.js.map

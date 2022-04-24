@@ -1,0 +1,41 @@
+body{
+    padding: 0 20px;
+
+    max-width: 60%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+table.bordered-table th, td {
+    border: 1px solid silver; 
+    padding: 10px;
+}
+
+table.bordered-table {
+    border-collapse: collapse;
+}
+
+.product-form{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-input {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 10px;
+}
+.product-form label{
+    margin-bottom: 10px;
+}
+.product-form select,
+.product-form input{
+    width: 300px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+enum Categories {
+    Jeans
+    Jackets
+    Shirts
+    Sweaters
+    Accessories
+}
+
+type Product {
+    id: Int!
+    category: Categories!
+    name: String!
+    price: Float!
+    url: String!
+}
+
+input ProductUpdateInputs {
+  name: String
+  category: Categories
+  price: Float
+  url: String
+}
+
+#Queries
+type Query {
+    getAllProducts: [Product!]!
+    product(id: Int!): Product!
+}
+
+#Mutations
+type Mutation {
+    addProduct( category: String!, name: String!, price: Float!, url: String!): Product!
+    updateProduct(id: Int!, changes: ProductUpdateInputs!): Product!
+    deleteProduct(id: Int!): Boolean!
+}
